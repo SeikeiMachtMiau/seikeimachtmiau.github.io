@@ -92,12 +92,9 @@
     #smm_logo{
         display: none;
     }
-    .youtube,
-    .csgo,
-    .civ,
-    .discord {
-        width: 100%;
-    }
+
+
+
     .header{display:none;}
     .section {
       width: 100%;
@@ -105,6 +102,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    .youtube,
+    .csgo,
+    .civ,
+    .discord {
+        width: 1000%;
     }
     .sidenav{display:none;}
     body {
@@ -141,6 +144,9 @@
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
 
+  .page {
+      margin: 0 auto;
+    }
     .csgo,
     .civ,
     .youtube{
